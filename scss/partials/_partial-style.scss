@@ -1,0 +1,9 @@
+@import '_variables.scss';
+
+body {
+    color: $color;
+
+    & p {
+        color: darken($color, 20%)
+    }
+}
