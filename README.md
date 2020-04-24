@@ -1,3 +1,3 @@
-# web-init-project
+# electron-sql-profiler
 
-Empty initial simple web project with typescript and scss support for vscode
+This is basically an excuse to play with Electron
