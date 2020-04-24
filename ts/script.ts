@@ -1,4 +1,4 @@
-class Test {
+export class Test {
     private msg: string;
     constructor(msg: string) {
         this.msg = msg;

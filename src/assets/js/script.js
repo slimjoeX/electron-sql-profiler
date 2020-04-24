@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Test = /** @class */ (function () {
     function Test(msg) {
         this.msg = msg;
@@ -11,5 +12,6 @@ var Test = /** @class */ (function () {
     };
     return Test;
 }());
+exports.Test = Test;
 var test = new Test("this is a test");
 test.log();

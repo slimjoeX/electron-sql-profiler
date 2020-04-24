@@ -1,16 +1,13 @@
-const { app, BrowserWindow } = require('electron');
-
-function createWindow () {
-  const win = new BrowserWindow({
-    width: 800,
-    height: 600,
-    webPreferences: {
-      nodeIntegration: true
-    }
-  });  
-
-  // and load the index.html of the app.
-  win.loadFile('src/index.html');
-}
-
-app.whenReady().then(createWindow);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var electron_1 = require("electron");
+electron_1.app.whenReady().then(function () {
+    var win = new electron_1.BrowserWindow({
+        width: 800,
+        height: 600,
+        webPreferences: {
+            nodeIntegration: true
+        }
+    });
+    win.loadFile('src/index.html');
+});
