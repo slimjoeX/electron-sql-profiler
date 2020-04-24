@@ -1,0 +1,11 @@
+{
+  "name": "sql-profiler",
+  "version": "0.1.0",
+  "main": "src/assets/js/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^8.2.3"
+  }
+}
